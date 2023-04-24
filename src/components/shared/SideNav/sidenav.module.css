@@ -1,0 +1,67 @@
+/*
+ * File: sidenav.module.css
+ * Project: deriv-assignment
+ * File Created: Saturday, 22nd April 2023 12:55:44 am
+ * Author: Priya Gupta (priyagupta.90@gmail.com)
+ * -----
+ * Last Modified: Monday, 24th April 2023 5:05:38 pm
+ * Modified By: Priya Gupta (priyagupta.90@gmail.com)
+ * -----
+ * Copyright 2023 - 2023 , Deriv By Priya
+ */
+
+.sidenav {
+  width: 220px;
+  transition: width 0.3s ease-in-out;
+  height: 100vh;
+  background-color: #6666ff;
+  padding-top: 28px;
+  position: fixed;
+  top: 6vh;
+  left: 0;
+}
+.sidenavClosed {
+  composes: sidenav;
+  transition: width 0.3s ease-in-out;
+  width: 60px;
+}
+.sideitem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+}
+.linkText {
+  padding-left: 16px;
+}
+
+.sideitem:hover {
+  background-color: #6666ff;
+}
+.menuBtn {
+  align-self: center;
+  align-self: flex-start;
+  justify-self: flex-end;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.mainBlock {
+  width: calc(100vw - 220px);
+  left: 220px;
+  position: relative;
+  top: 5vh;
+}
+
+.mainBlockCollapsed {
+  width: calc(100vw - 60px);
+  left: 60px;
+  position: relative;
+  top: 5vh;
+}
