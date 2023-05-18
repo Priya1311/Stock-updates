@@ -1,6 +1,6 @@
 # Deriv Assignment
 
-Frontend Code Test:-
+Features:-
 - As a user, I can filter the asset list by category (e.g Forex, Stock indices etc) and sub-category (e.g. Major pairs), so that I can find assets that match what I’m looking for.
 - As a user, I can see real-time prices for each asset, so that I can decide which one I want to trade on.
 - As a user, I can see the highest and lowest price in the last 24 hour period, so that I can see the fluctuations over the day.
