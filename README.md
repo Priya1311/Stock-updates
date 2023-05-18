@@ -1,4 +1,4 @@
-# Deriv Assignment
+# Use of DERIV API for live Stock updates
 
 Features:-
 - As a user, I can filter the asset list by category (e.g Forex, Stock indices etc) and sub-category (e.g. Major pairs), so that I can find assets that match what I’m looking for.
